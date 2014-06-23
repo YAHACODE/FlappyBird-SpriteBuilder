@@ -8,8 +8,9 @@ character
 CCPhysicsNode
 
 - (void)initialize
-{
-    character = (Character*)[CCBReader load:@"Character"];
+[self addObstacle];
+
+{character = (Character*)[CCBReader load:@"Character"];
     [physicsNode addChild:character];}
 
 -(void)update:(CCTime)delta
@@ -22,3 +23,4 @@ CCPhysicsNode
     [character flap];
     (type I return)nameOfMethod: (type of first parameter) firstParameter continuationOfMethodName: (type of second parameter) secondParameter
 }
+end
