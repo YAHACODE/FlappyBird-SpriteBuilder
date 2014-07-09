@@ -3,6 +3,7 @@
 #import "Obstacle.h"
 
 @implementation GamePlayScene{
+    
     float timeSinceObstacle;
 }
 - (void)initialize
