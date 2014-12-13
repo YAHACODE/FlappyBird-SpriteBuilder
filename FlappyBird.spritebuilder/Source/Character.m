@@ -26,7 +26,7 @@
 - (void)move
 {
 
-    self.physicsBody.velocity=CGPointMake(20,self.physicsBody.velocity.y);
+    self.physicsBody.velocity=CGPointMake(90,self.physicsBody.velocity.y);
     
 }
 
