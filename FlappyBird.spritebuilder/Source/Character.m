@@ -25,7 +25,7 @@
 
 - (void)move
 {
-    self.physicsBody.velocity=CGPointMake(400,self.physicsBody.velocity.y);
+    [self.physicsBody applyImpulse:ccp(400, 0.f)];
 }
 
 @end
