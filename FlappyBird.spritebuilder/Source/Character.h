@@ -11,6 +11,6 @@
 @interface Character : CCSprite
 
 -(void) flap;
--(void) run;
+-(void) move;
 
 @end
